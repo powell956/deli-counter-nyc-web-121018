@@ -1,6 +1,6 @@
 def line(katz_deli)
   num_assigned = []
-  if katz_deli.length = 0
+  if katz_deli.length == 0
     puts "The line is currently empty."
   else
     katz_deli.each do |customer|
@@ -16,7 +16,7 @@ def take_a_number(katz_deli, new_customer)
 end
 
 def now_serving(katz_deli)
-  if katz_deli.length = 0
+  if katz_deli.length == 0
     puts "The line is currently empty."
   else
     puts "Currently serving #{katz_deli[0]}."
